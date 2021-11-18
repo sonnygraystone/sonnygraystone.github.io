@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Technical Skills</title>
+      <link href="https://fonts.googleapis.com/css?family=Yantramanav:100,300,400,500,700,900" rel="stylesheet">
+      <link href='../styles/main.css' rel='stylesheet' type='text/css'/>
+</head>
+
+<body>
+
+<header>
+  <nav>
+    <ul>
+      <li><a href="../index.html"> Home </a></li>
+      <li> <a href="sprint2-technical.html">Technical Blog</a></li>
+      <li> <a href="sprint1-cultural.html">Identity & Values</a></li>
+      <li> <a href="sprint2-cultural.html">Learning plan </a></li>
+    </ul>
+  </nav>
+</header>
+
+<h1>
+  What are the differences between relative, absolute, and fixed positioning?
+</h1>
+
+<h3>
+  Position: Static
+</h3>
+
+<p>
+  By default all HTML elements are set using static essentially all this does is it says all elements should follow the document flow.
+</p>
+
+<br />
+
+<div class="item">
+  <img src="../positions/fixed.png"/>
+  <span class="caption">Position: Static</span>
+</div>
+
+
+<h3>
+  Position: Relative
+</h3>
+
+<p>
+  Relative position works similar to static with the key difference of being able to move the element on the page using top/bottom/left/right. The example below shows One has a relative position that has been moved 10px to the left.
+</p>
+
+<br />
+
+
+<div class="item">
+  <img src="../positions/relative10left.png"/>
+  <span class="caption">Position: Relative - One - 10px left</span>
+</div>
+
+<br />
+
+<h3>
+  Position: Absolute
+</h3>
+<p>
+  absolute works similar to relative however it is moved based on its parent element.
+  Position absolute completely removes the elemenet from the document flow. All other elements render as if that absolute element did not exist at all.
+  An absolute position is relative to its closet positioned parent element. It can be pinned to any part of the screen however the element will still move with the page when scrolled.
+</p>
+
+<br />
+
+<div class="item">
+  <img src="../positions/absolute.png"/>
+  <span class="caption">Absolute - removes element from document flow</span>
+</div>
+
+<br />
+
+<div class="item">
+  <img src="../positions/absolute0top.png"/>
+  <span class="caption">Absolute - One - 0px  top</span>
+</div>
+
+<div class="item">
+  <img src="../positions/absolute top 0parent relative.png"/>
+  <span class="caption">Absolute - One - 0px top. Parent position: relative </span>
+</div>
+
+
+<div class="pracs">
+<p>
+  this is an example of a fixed position
+</p>
+</div>
+
+
+<h3>
+  Position: Fixed
+</h3>
+
+<p>
+When an elements position is set to fixed it can be pinned to any page of the page. The element will remain in that same spot even if a user scrolls down. An example of this is the box on the bottom right of this page.
+</p>
+
+<br />
+
+
+<!-- Link to all pages - fix styling.
+  <div class="botbutton">
+  <div class="center">
+    <button> <a href="blogposts.html">All Blog Posts</a></button>
+  </div>
+</div> -->
+
+</body>
+
+</html>

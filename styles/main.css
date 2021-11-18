@@ -1,0 +1,129 @@
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  color: #004E89;
+  font-family: 'Yantramanav', sans-serif;
+  font-size: 50px;
+  font-weight: 400;
+  margin: 0;
+  text-align: center;
+  
+}
+  
+h2 {
+  color: #004E89;
+  font-family: 'Yantramanav', sans-serif;
+  font-size: 16px;
+  font-weight: 100;
+  letter-spacing: 2px;
+  margin: 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h3 {
+  color: #004E89;
+  text-align: center;
+  font-size: 20px;
+}
+
+p {
+  color: #333;
+  font-family: 'Yantramanav', sans-serif;
+  font-size: 16px;
+  font-weight: 100;
+  margin: 0;
+  text-align: center;
+}
+
+header {
+  background-color: #333333;
+  width: 100%;
+  z-index: 10;
+  
+}
+
+div.pracs {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 300px;
+  border: 3px solid #73AD21;
+}
+
+nav {
+  margin: 0;
+  padding: 20px 0;
+}
+
+nav li {
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  display: inline-block;
+  width: 80px;
+}
+
+
+div.item {
+  text-align: center;
+
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+.caption {
+  display: block;
+  font-size: smaller;
+}
+
+.stuck {
+  position: fixed;
+}
+
+
+ul, li, a {
+  color: white; 
+ }
+
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 30px 0;
+  color: white;
+  text-align: center;
+  position: relative;
+  bottom: 100%;
+  border: 3px black;
+  }
+
+  /* styling needs to be fixed for bottom blog link to all - change color.
+  .botbutton {
+    height: 200px;
+    position: relative;
+    color: rgb(77, 21, 230);
+    padding: 10px 15px;
+    text-align: center;
+    font-size: 16px;;
+  }
+
+  
+  .center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border: 3px solid #000000;
+  } */
+  
+
+
