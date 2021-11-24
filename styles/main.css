@@ -2,6 +2,30 @@
   box-sizing: border-box;
 }
 
+.bg-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../photographer2.JPG");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  }
+  
+  .bg-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  }
+  
+  html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  }
+
 h1 {
   color: #004E89;
   font-family: 'Yantramanav', sans-serif;
@@ -42,8 +66,7 @@ header {
   background-color: #333333;
   width: 100%;
   z-index: 10;
-  
-}
+  }
 
 div.pracs {
   position: fixed;
@@ -58,13 +81,30 @@ nav {
   padding: 20px 0;
 }
 
-nav li {
-  color: #fff;
+  nav li {
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    display: inline-block;
+    width: 80px;
+}
+
+main {
+  text-align: center;
+  position: relative;
+  top: 80px;
+}
+
+main h1 {
+  color: #333;
   font-family: 'Raleway', sans-serif;
   font-weight: 600;
-  font-size: 12px;
-  display: inline-block;
-  width: 80px;
+  font-size: 70px;
+  margin-top: 0px;
+  padding-top: 80px;
+  margin-bottom: 80px;
+  text-transform: uppercase;
 }
 
 
@@ -90,7 +130,60 @@ img {
 
 ul, li, a {
   color: white; 
- }
+}
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+  text-align: center;
+}
+
+.supporting {
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+
+
+.supporting .col {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    display: inline-block;
+    /* width: 150px; */
+    width: 100%;
+}
+      
+.supporting img {
+    height: 32px;
+}
+
+.supporting h2 {
+  font-weight: 600;
+  font-size: 23px;
+  text-transform: uppercase;
+}
+
+.supporting p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 0 20px;
+  margin-bottom: 20px;
+}
+
+.supporting a {
+  background-color: white;
+  color: #333333;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 1.3px;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 2px solid #333333; 
+}
 
 
 footer {
@@ -102,7 +195,26 @@ footer {
   position: relative;
   bottom: 100%;
   border: 3px black;
-  }
+}
+
+button {
+  background-color: #000000;
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;;
+}
+
+/* @media (max-width: 500px) {
+  main h1 {
+  font-size: 50px;
+  padding: 0 40px;
+} */
+  
+
 
   /* styling needs to be fixed for bottom blog link to all - change color.
   .botbutton {
@@ -125,5 +237,3 @@ footer {
     border: 3px solid #000000;
   } */
   
-
-
