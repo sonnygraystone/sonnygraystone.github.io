@@ -92,6 +92,10 @@ ul, li, a {
   color: white; 
  }
 
+ a.links {
+   color: blue;
+ }
+
 
 footer {
   background-color: #333;
